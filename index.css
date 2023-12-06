@@ -1,0 +1,231 @@
+@font-face{
+    font-family: myFont;
+    src: url(./rasm/FontsFree-Net-AvertaDemoPECuttedDemo-Regular.ttf);
+}
+
+body{
+    padding: 0;
+    margin: 0;
+    font-family: myFont;
+}
+
+.header{
+    padding: 30px 0;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li{
+    margin: 0 20px;
+}
+
+.logo-img{
+    margin-top: 13px;
+}
+
+li:hover{
+    color: blue;
+    cursor: pointer;
+}
+
+.main{
+    width: 90%;
+    height: 650px;
+    margin: 0 auto;
+    background-image: url(./rasm/Group\ 75.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    display: flex;
+}
+.main-text{
+    width: 50%;
+    height: 100%;
+}
+
+.main-image{
+    width: 50%;
+    height: 100%;
+}
+.main-image img {
+    width: 50%;
+}
+
+.main-title{
+    margin-top: 100px;
+}
+
+.subtitle{
+    width: 70%;
+    color: grey;
+    line-height: 25px;
+}
+
+.btn-contact{
+    background-color: blue;
+    color: white;
+    display: inline-block;
+    padding: 25px 35px;
+    border-radius: 50px;
+    margin-top: 50px;
+    cursor: pointer;
+}
+
+.main-image img{
+    position: absolute;
+    right: 0;
+}
+
+.client{
+    width: 90%;
+    display: flex;
+    margin: 0px auto;
+}
+
+.client-title{
+    width: 30%;
+}
+
+.client-logos{
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.client-logos img{
+    width: 200px;
+    object-fit: none;
+    object-position: center;
+}
+.business {
+    height: 100vh;
+    background: url("./rasm/Group\ 76.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    margin-bottom: 100px;
+}
+
+.business-text {
+    width: 40%;
+    margin-top: 300px;
+}
+
+.business-card {
+    width: 60%;
+    display: flex;
+}
+
+.card {
+    display: inline-block;
+    padding: 50px;
+    text-align: center;
+    background-color: white;
+    width: 300px;
+    height: 380px;
+    border-radius: 50px;
+    box-shadow: 0 3px 10px rgba(152, 152, 152, 0.2);
+    margin: 30px 0;
+    box-sizing: border-box;
+}
+
+.first-col,
+.second-col {
+    margin: 0 15px;
+}
+
+.first-col {
+    margin-top: 50px;
+}
+
+.card-img {
+    display: inline-block;
+    padding: 25px;
+    border-radius: 25px;
+}
+
+.card-subtitle {
+    color: grey;
+}
+
+.video{
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+    background-image: url("./rasm/Great\ Since.png");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.vdga{
+    width: 50%;
+
+}
+.vdga iframe{
+    width: 90%;
+    height: 370px;
+    border-radius: 10px;
+    box-shadow: 0 3px 10px rgba(128, 128, 128, 0.254)  ;
+}
+
+.textga{
+    width: 50%;
+    margin-top: 70px ;
+}
+
+.video{
+    display: flex;
+}
+
+.adasi{
+    width: 90%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.akasi{
+    text-align: center;
+}
+
+.opasi{
+    display: flex;
+}
+
+.ikki{
+    width: 40%;
+}
+
+.bir,.uch{
+    width: 30%;
+}
+
+.father{
+    display: flex;
+}
+
+.brother{
+    background-color: blue;
+    width: 15px;
+    height: 15px;
+    border-radius:100% ;
+    margin: 5px;
+}
+
+.sister{
+    background-color: rgba(0, 0, 255, 0.27);
+    width: 15px;
+    height: 15px;
+    border-radius:100% ;
+    margin: 5px;
+}
+
